@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Python Tuition - Master Logic & Coding</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- AOS Animation Library -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #e3f2fd;
+      color: #0d1b2a;
+      overflow-x: hidden;
+    }
+
+    section {
+      min-height: 60vh;
+      padding: 60px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .hero {
+      background-color: #90caf9;
+    }
+
+    .hero h1 {
+      font-size: 3em;
+      color: #0d1b2a;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+      padding: 0.3em 0.5em;
+      border-radius: 10px;
+    }
+
+    .hero h2 {
+      font-size: 1.2em;
+      margin: 20px 0 30px;
+      color: #1e3a5f;
+    }
+
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .feature {
+      background: #e1f5fe;
+      border: 1px solid #b3e5fc;
+      border-radius: 10px;
+      padding: 20px;
+      width: 250px;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s;
+    }
+
+    .feature:hover {
+      transform: translateY(-5px);
+    }
+
+    .feature img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      margin-bottom: 10px;
+      border-radius: 8px;
+    }
+
+    .about {
+      background-color: #bbdefb;
+    }
+
+    .contact {
+      background-color: #b3e5fc;
+    }
+
+    .about h1,
+    .contact h1,
+    .about p,
+    .contact p {
+      max-width: 800px;
+      margin: 0 auto 20px auto;
+      font-size: 1.1em;
+      line-height: 1.6;
+    }
+
+    .pdf-button {
+      margin-top: 30px;
+    }
+
+    .pdf-button a {
+      display: inline-block;
+      padding: 12px 25px;
+      font-size: 1em;
+      background-color: #1976d2;
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background 0.3s ease;
+    }
+
+    .pdf-button a:hover {
+      background-color: #1565c0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #64b5f6;
+      color: white;
+    }
+
+    @media screen and (max-width: 768px) {
+      .hero h1 {
+        font-size: 2.2em;
+      }
+
+      .hero h2 {
+        font-size: 1em;
+      }
+
+      .feature {
+        width: 90%;
+      }
+
+      section {
+        padding: 40px 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HERO SECTION -->
+  <section class="hero" data-aos="fade-up">
+    <h1>Master Python: Logic & Solutions</h1>
+    <h2>Unlock the power of Python for beginners, build your logic, and solve real-world problems.</h2>
+
+    <div class="features">
+      <div class="feature" data-aos="fade-up" data-aos-delay="100">
+        <img src="https://media.licdn.com/dms/image/D4D12AQGkhVu2gh8X6g/article-cover_image-shrink_600_2000/0/1716287814954?e=2147483647&v=beta&t=ED8s7ACPwHL_6r9e_9SsHwqzrqpG_1Gkng8sPu7umPo" alt="Learn from Scratch">
+        <p>Learn from scratch, no prior coding experience needed.</p>
+      </div>
+      <div class="feature" data-aos="fade-up" data-aos-delay="200">
+        <img src="https://bigohtech.com/wp-content/uploads/2022/12/1652784611663-1024x1024-1-300x300.webp" alt="Build Logic">
+        <p>Build strong logical thinking skills through practical exercises.</p>
+      </div>
+      <div class="feature" data-aos="fade-up" data-aos-delay="300">
+        <img src="https://d502jbuhuh9wk.cloudfront.net/articles/67ae2612cb783e13d4029fc7/pmSbAhdfkrjtat1muoe4nrcvmgg.png" alt="Problem Solving">
+        <p>Gain the skills to solve real-world problems with Python.</p>
+      </div>
+    </div>
+
+    <div class="pdf-button" data-aos="zoom-in" data-aos-delay="400">
+      <a href="C:\Users\shakshi anchan\Desktop\Chirag\Python\Tuition\TuitionWebPage\Python_Class_Brochure (1).pdf" target="_blank" download>📄 Download Brochure</a>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section class="about" data-aos="fade-up">
+    <h1>About the Class</h1>
+    <p>This class is perfect for anyone who wants to start learning Python from the basics. We focus on building logical thinking and problem-solving skills, essential for any programming journey. The curriculum is hands-on and beginner-friendly.</p>
+    <p>Classes are held 3 times a week, with flexible timings to suit your schedule. Each session lasts 1.5 hours and covers new topics, interactive coding exercises, and mini projects.</p>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section class="contact" data-aos="fade-up">
+    <h1>Contact & Registration</h1>
+    <p>If you're interested in joining the class, feel free to reach out via email or fill out our online registration form. Seats are limited to ensure personal attention to each student.</p>
+    <p>Email: chirag192.168@gmail.com</p>
+    <p>Start your coding journey today!</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Python Tuition. All rights reserved.
+  </footer>
+
+  <!-- AOS Animation Scripts -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: false, // changed to false so animation repeats
+      mirror: true // animate out when scrolling up
+    });
+  </script>
+</body>
+</html>
