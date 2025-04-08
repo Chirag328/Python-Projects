@@ -165,9 +165,10 @@
     </div>
 
     <div class="pdf-button" data-aos="zoom-in" data-aos-delay="400">
-  <a href="#" onclick="downloadPDF()">📥 Download Brochure</a>
-
-</div>
+      <a href="https://drive.google.com/uc?export=download&id=1YQtBqAwEIvp-I3ESC3LNYwV0nwlRm47b" target="_blank" rel="noopener noreferrer">
+        📥 Download Brochure
+      </a>
+    </div>
 
   </section>
 
@@ -198,14 +199,6 @@
       once: false, // changed to false so animation repeats
       mirror: true // animate out when scrolling up
     });
-    function downloadPDF() {
-      const link = document.createElement("a");
-      link.href = "https://chirag328.github.io/Python-Projects/Tutorial2/Python_Class_Brochure.pdf";
-      link.download = "Python_Class_Brochure.pdf";
-      document.body.appendChild(link);
-      link.click();
-      document.body.removeChild(link);
-}
   </script>
 </body>
 </html>
